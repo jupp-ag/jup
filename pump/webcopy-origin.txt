@@ -1,0 +1,28 @@
+Uri: https://pump.fun/
+File Name: C:\Users\Administrator\Desktop\pump.fun\index.htm
+Content Type: text/html
+
+Uri: https://pump.fun/icon.png?c2a22dd8671140c9
+File Name: C:\Users\Administrator\Desktop\pump.fun\icon.png
+Content Type: image/png
+
+Uri: https://pump.fun/_next/static/chunks/4938-ceb7b3719ff71f56.js
+File Name: C:\Users\Administrator\Desktop\pump.fun\_next\static\chunks\4938-ceb7b3719ff71f56.js
+Content Type: application/javascript
+
+Uri: https://pump.fun/_next/static/chunks/fd9d1056-075c4fb66d09a725.js
+File Name: C:\Users\Administrator\Desktop\pump.fun\_next\static\chunks\fd9d1056-075c4fb66d09a725.js
+Content Type: application/javascript
+
+Uri: https://pump.fun/_next/static/chunks/main-app-9d29112874f4942d.js
+File Name: C:\Users\Administrator\Desktop\pump.fun\_next\static\chunks\main-app-9d29112874f4942d.js
+Content Type: application/javascript
+
+Uri: https://pump.fun/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js
+File Name: C:\Users\Administrator\Desktop\pump.fun\_next\static\chunks\polyfills-c67a75d1b6f99dc8.js
+Content Type: application/javascript
+
+Uri: https://pump.fun/_next/static/chunks/webpack-70887491a5154e19.js
+File Name: C:\Users\Administrator\Desktop\pump.fun\_next\static\chunks\webpack-70887491a5154e19.js
+Content Type: application/javascript
+
