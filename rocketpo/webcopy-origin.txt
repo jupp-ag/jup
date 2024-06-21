@@ -1,0 +1,32 @@
+Uri: https://rocketpool.net/
+File Name: C:\Users\Administrator\Desktop\rocketpool.net\index.htm
+Content Type: text/html
+
+Uri: https://rocketpool.net/assets/index-CDc-yN6A.js
+File Name: C:\Users\Administrator\Desktop\rocketpool.net\assets\index-CDc-yN6A.js
+Content Type: application/javascript
+
+Uri: https://rocketpool.net/assets/index-ZeoMak-5.css
+File Name: C:\Users\Administrator\Desktop\rocketpool.net\assets\index-ZeoMak-5.css
+Content Type: text/css
+
+Uri: https://rocketpool.net/favicon.ico
+File Name: C:\Users\Administrator\Desktop\rocketpool.net\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://rocketpool.net/inter-v13-latin-500.woff2
+File Name: C:\Users\Administrator\Desktop\rocketpool.net\inter-v13-latin-500.woff2
+Content Type: font/woff2
+
+Uri: https://rocketpool.net/inter-v13-latin-600.woff2
+File Name: C:\Users\Administrator\Desktop\rocketpool.net\inter-v13-latin-600.woff2
+Content Type: font/woff2
+
+Uri: https://rocketpool.net/inter-v13-latin-regular.woff2
+File Name: C:\Users\Administrator\Desktop\rocketpool.net\inter-v13-latin-regular.woff2
+Content Type: font/woff2
+
+Uri: https://rocketpool.net/poppins-v20-latin-600.woff2
+File Name: C:\Users\Administrator\Desktop\rocketpool.net\poppins-v20-latin-600.woff2
+Content Type: font/woff2
+
