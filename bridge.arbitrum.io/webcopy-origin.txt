@@ -1,0 +1,88 @@
+Uri: https://bridge.arbitrum.io/?destinationChain=arbitrum-one&sourceChain=ethereum
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\index.htm
+Content Type: text/html
+
+Uri: https://bridge.arbitrum.io/logo.png
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\logo.png
+Content Type: image/png
+
+Uri: https://bridge.arbitrum.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feclipse_bottom.4304bd37.png&w=1920&q=75
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\eclipse_bottom-1.png
+Content Type: image/png
+
+Uri: https://bridge.arbitrum.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feclipse_bottom.4304bd37.png&w=3840&q=75
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\eclipse_bottom.png
+Content Type: image/png
+
+Uri: https://bridge.arbitrum.io/_next/static/BIdm05QFYgRGzl9St1xgY/_buildManifest.js
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\BIdm05QFYgRGzl9St1xgY\_buildManifest.js
+Content Type: application/javascript
+
+Uri: https://bridge.arbitrum.io/_next/static/BIdm05QFYgRGzl9St1xgY/_ssgManifest.js
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\BIdm05QFYgRGzl9St1xgY\_ssgManifest.js
+Content Type: application/javascript
+
+Uri: https://bridge.arbitrum.io/_next/static/chunks/2222-111c983cd43cf3b6.js
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\chunks\2222-111c983cd43cf3b6.js
+Content Type: application/javascript
+
+Uri: https://bridge.arbitrum.io/_next/static/chunks/framework-acdd23eb235c0e7e.js
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\chunks\framework-acdd23eb235c0e7e.js
+Content Type: application/javascript
+
+Uri: https://bridge.arbitrum.io/_next/static/chunks/main-a7dc7c8b86e88170.js
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\chunks\main-a7dc7c8b86e88170.js
+Content Type: application/javascript
+
+Uri: https://bridge.arbitrum.io/_next/static/chunks/pages/index-14b206ad85b799cd.js
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\chunks\pages\index-14b206ad85b799cd.js
+Content Type: application/javascript
+
+Uri: https://bridge.arbitrum.io/_next/static/chunks/pages/_app-00caa20fb92cbfe3.js
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\chunks\pages\_app-00caa20fb92cbfe3.js
+Content Type: application/javascript
+
+Uri: https://bridge.arbitrum.io/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\chunks\polyfills-c67a75d1b6f99dc8.js
+Content Type: application/javascript
+
+Uri: https://bridge.arbitrum.io/_next/static/chunks/webpack-80473d3ee00a5c5e.js
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\chunks\webpack-80473d3ee00a5c5e.js
+Content Type: application/javascript
+
+Uri: https://bridge.arbitrum.io/_next/static/css/e13f115a122e8abd.css
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\css\e13f115a122e8abd.css
+Content Type: text/css
+
+Uri: https://bridge.arbitrum.io/_next/static/media/47bad734875a3c19-s.p.woff2
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\media\47bad734875a3c19-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://bridge.arbitrum.io/_next/static/media/a0dda0300042e3c7-s.p.woff2
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\media\a0dda0300042e3c7-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://bridge.arbitrum.io/_next/static/media/e1d74c7d0918b0fb-s.p.woff2
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\_next\static\media\e1d74c7d0918b0fb-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\s\roboto\v30\KFOlCnqEu92Fr1MmEU9vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\s\roboto\v30\KFOlCnqEu92Fr1MmSU5vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\s\roboto\v30\KFOlCnqEu92Fr1MmWUlvAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf
+File Name: C:\Users\Administrator\Desktop\bridge.arbitrum.io\s\roboto\v30\KFOmCnqEu92Fr1Me5Q.ttf
+Content Type: font/ttf
+
