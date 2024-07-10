@@ -1,0 +1,50 @@
+{
+  "perps": {
+    "id": "perps-new-fees-structure-2",
+    "startTime": 1720602000000,
+    "expiryTime": 1720713600000,
+    "closeCount": 1,
+    "data": {
+      "imageUrl": "",
+      "title": {
+        "en": "New perps fee structure",
+        "fr": "",
+        "id": "",
+        "it-IT": "",
+        "ja": "",
+        "ru": "",
+        "vi": "",
+        "zh-SG": ""
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "en": "Jupiter Perpetual has recently updated its fee structure, changing base fee from 7bps to 6bps, and reducing price impact fee for SOL.",
+            "fr": "",
+            "id": "",
+            "it-IT": "",
+            "ja": "",
+            "ru": "",
+            "vi": "",
+            "zh-SG": ""
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "text": {
+            "en": "Read more",
+            "fr": "",
+            "id": "",
+            "it-IT": "",
+            "ja": "",
+            "ru": "",
+            "vi": "",
+            "zh-SG": ""
+          },
+          "link": "https://station.jup.ag/guides/perpetual-exchange/trading#fees"
+        }
+      ]
+    }
+  }
+}
