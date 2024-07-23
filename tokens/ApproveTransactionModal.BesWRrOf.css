@@ -1,0 +1,5 @@
+.modal-transaction-approve__signing { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-bottom: 2.5rem; }
+.modal-transaction-approve__signing-wallet { background-color: var(--dd-color-background-additional); border: 1px solid var(--dd-color-background-additional); border-radius: 50%; height: 4rem; margin-bottom: 1rem; position: relative; width: 4rem; }
+.modal-transaction-approve__signing-wallet-placeholder { color: var(--dd-color-content-secondary); height: 1.5rem; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); width: auto; z-index: 0; }
+.modal-transaction-approve__signing-wallet-icon { border-radius: 50%; height: 100%; position: relative; width: auto; z-index: 1; }
+.modal-transaction-approve__signing-title { font-size: 2rem; font-weight: 600; line-height: 2.5rem; }

@@ -1,0 +1,13 @@
+.asset-input__content-item { padding-bottom: 1.75rem; position: relative; }
+.asset-input__content-item:last-child { padding-bottom: 0px; }
+.asset-input__content-row { display: flex; flex-direction: row; justify-content: space-between; padding-bottom: 1.25rem; }
+.asset-input__content-row:first-child { padding-bottom: 0.5rem; }
+.asset-input__content-row:last-child { padding-bottom: 0px; }
+.asset-input__content-cell { align-items: center; display: flex; flex-direction: row; }
+.asset-input__content-text { color: var(--dd-color-content-secondary); font-size: 0.875rem; font-weight: 500; line-height: 1.25rem; white-space: nowrap; }
+.asset-input__content-text--appendix { align-self: flex-end; line-height: 1.5rem; }
+.asset-input__asset-button { padding: 0px 0.5rem !important; }
+.asset-input__asset-button-icon { height: 1rem; width: auto; }
+.asset-input__asset-button-text { padding: 0px 0.375rem; }
+.asset-input__asset-button-image { background-color: var(--dd-color-stroke); border: 1px solid var(--dd-color-stroke); border-radius: 50%; display: flex; height: 1.5rem; transition-duration: 0.2s; transition-property: background-color, border-color; transition-timing-function: ease-in-out; width: 1.5rem; }
+.asset-input__appendix { align-self: flex-end; justify-content: flex-end; padding-left: 0.75rem; }

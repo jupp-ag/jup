@@ -1,0 +1,18 @@
+.app__switch { align-items: center; display: flex; position: relative; }
+.app__switch-inner { align-self: flex-start; background-color: var(--dd-color-accent-main); border-radius: 0.875rem; cursor: pointer; height: 1.75rem; overflow: hidden; position: relative; transition: background-color 0.3s ease-in-out 0s; user-select: none; width: 3rem; }
+.app__switch-inner::before { background-color: var(--dd-color-content-button); border-radius: 50%; bottom: 0px; content: " "; filter: drop-shadow(rgba(16, 24, 40, 0.06) 0px 1px 2px) drop-shadow(rgba(16, 24, 40, 0.1) 0px 1px 3px); height: 1.25rem; left: 0px; margin: auto 0px; position: absolute; top: 0px; transform: translate(1.5rem); transition: transform 0.3s ease-in-out 0s, background-color 0.3s ease-in-out 0s; width: 1.25rem; }
+.app__switch-inner--off { background-color: var(--dd-color-background-additional); }
+.app__switch-inner--off::before { transform: translate(0.25rem); }
+.app__switch-inner--sm { border-radius: 0.625rem; height: 1.25rem; width: 2.25rem; }
+.app__switch-inner--sm::before { height: 1rem; transform: translate(1.125rem); width: 1rem; }
+.app__switch-inner--sm.app__switch-inner--off::before { transform: translate(0.125rem); }
+.app__switch-inner--md { border-radius: 0.875rem; height: 1.75rem; width: 3rem; }
+.app__switch-inner--md::before { height: 1.25rem; transform: translate(1.5rem); width: 1.25rem; }
+.app__switch-inner--md.app__switch-inner--off::before { transform: translate(0.25rem); }
+.app__switch-inner--lg { border-radius: 1rem; height: 2rem; width: 3.5rem; }
+.app__switch-inner--lg::before { height: 1.5rem; transform: translate(1.75rem); width: 1.5rem; }
+.app__switch-inner--lg.app__switch-inner--off::before { transform: translate(0.25rem); }
+.app__switch-inner--disabled { background-color: color-mix(in srgb,var(--dd-color-accent-main),var(--dd-color-background-main) 25%); cursor: not-allowed; }
+.app__switch-inner--disabled::before { background-color: color-mix(in srgb,var(--dd-color-content-button),var(--dd-color-background-main) 50%); }
+.app__switch-inner--disabled.app__switch-inner--off { background-color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-background-main) 25%); }
+.app__switch-input { height: 0px; margin: 0px; opacity: 0; position: absolute; width: 0px; }

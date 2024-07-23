@@ -1,0 +1,4 @@
+.modal-text-notification__description { font-size: 1.25rem; font-weight: 400; line-height: 1.75rem; margin-bottom: 2.5rem; margin-top: 1.25rem; }
+@media screen and (min-width: 768px) {
+  .modal-text-notification__description { font-size: 1rem; line-height: 1.5rem; }
+}

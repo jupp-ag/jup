@@ -1,0 +1,42 @@
+.app-stake-asset[data-v-bba191db] { color: var(--dd-color-content-primary); display: flex; flex-direction: column; padding-top: 0.5rem; transition-duration: 0.2s; transition-property: color, background-color; transition-timing-function: ease-in-out; width: 100%; }
+@media screen and (min-width: 768px) {
+  .app-stake-asset[data-v-bba191db] { background-color: var(--dd-color-background-main); border-radius: 2rem; padding: 1.25rem; }
+}
+.app-stake-asset__header[data-v-bba191db] { align-items: center; display: flex; flex-direction: column; font-weight: 500; position: relative; z-index: 0; }
+.app-stake-asset__header-icon[data-v-bba191db] { background-color: var(--dd-color-stroke); border: 1px solid var(--dd-color-stroke); border-radius: 50%; display: flex; flex-direction: row; height: 3.75rem; margin-bottom: 1rem; transition-duration: 0.2s; transition-property: border-color, background-color; transition-timing-function: ease-in-out; width: 3.75rem; z-index: 1; }
+.app-stake-asset__header-title[data-v-bba191db] { color: var(--dd-color-content-primary); font-size: 1.5rem; line-height: 2rem; }
+.app-stake-asset__header-description[data-v-bba191db], .app-stake-asset__header-title[data-v-bba191db] { transition-duration: 0.2s; transition-property: color; transition-timing-function: ease-in-out; }
+.app-stake-asset__header-description[data-v-bba191db] { color: var(--dd-color-content-secondary); font-size: 0.875rem; line-height: 1.25rem; margin-top: 0.25rem; text-align: center; }
+@media screen and (min-width: 768px) {
+  .app-stake-asset__header-description[data-v-bba191db] { font-size: 1.25rem; line-height: 1.75rem; }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .app-stake-asset__header-description[data-v-bba191db] { font-size: 1rem; line-height: 1.5rem; }
+}
+.app-stake-asset__header-buttons[data-v-bba191db] { display: grid; gap: 0.5rem; grid-template-columns: repeat(2, 1fr); margin: 16px auto 0px; width: 100%; }
+@media screen and (min-width: 768px) {
+  .app-stake-asset__header-buttons[data-v-bba191db] { max-width: 408px; }
+}
+.app-stake-asset__content-wrapper[data-v-bba191db] { column-count: 1; column-gap: 0.75rem; height: 100%; margin-top: 1.5rem; }
+@media screen and (min-width: 768px) {
+  .app-stake-asset__content-wrapper[data-v-bba191db] { column-count: 2; margin-top: 2.5rem; }
+}
+.app-stake-asset__content-block[data-v-bba191db] { margin-bottom: 16px; width: 100%; }
+.app-stake-asset__content-block--position[data-v-bba191db] { margin-bottom: 1rem !important; }
+@media screen and (min-width: 768px) {
+  .app-stake-asset__content-block[data-v-bba191db] { margin-bottom: 12px; }
+  .app-stake-asset__content-block--position[data-v-bba191db] { margin-bottom: 0.75rem !important; }
+  .app-stake-asset__content-block--faq[data-v-bba191db] { margin-bottom: 0px; }
+}
+.app-stake-asset__content-link[data-v-bba191db] { align-items: center; color: var(--dd-color-content-secondary); display: flex; margin-left: 1.125rem; transition-duration: 0.2s; transition-property: color; transition-timing-function: ease-in-out; }
+@media (hover: hover) and (pointer: fine) {
+  .app-stake-asset__content-link[data-v-bba191db]:hover { color: var(--dd-color-accent-main); }
+}
+.app-stake-asset__content-link-icon[data-v-bba191db] { height: 0.875rem; margin-left: 0.25rem; width: auto; }
+.app-stake-asset__block-header-value[data-v-bba191db] { color: var(--dd-color-content-secondary); font-size: 1.25rem; line-height: 1.75rem; transition-duration: 0.2s; transition-property: color; transition-timing-function: ease-in-out; }
+@media screen and (min-width: 768px) {
+  .app-stake-asset__block-header-value[data-v-bba191db] { font-size: 1rem; line-height: 1.5rem; }
+}
+.app-stake-asset__faq-header[data-v-bba191db] { font-size: 0.875rem; font-weight: 600; line-height: 1.25rem; margin-bottom: 8px; }
+.app-stake-asset__faq-description[data-v-bba191db], .app-stake-asset__faq-header[data-v-bba191db] { color: var(--dd-color-content-primary); transition-duration: 0.2s; transition-property: color; transition-timing-function: ease-in-out; }
+.app-stake-asset__faq-description[data-v-bba191db] { font-size: 0.75rem; font-weight: 500; line-height: 1rem; }

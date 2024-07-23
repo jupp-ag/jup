@@ -1,0 +1,7 @@
+@keyframes shimmer { 
+  100% { transform: translate(100%); }
+}
+.app__skeleton { display: inherit; overflow: hidden; position: relative; width: 3.75rem; }
+.app__skeleton--wide { width: 100%; }
+.app__skeleton-loader { background-color: var(--dd-color-background-additional); border-radius: 0.5rem; inset: 0px; position: absolute; transition-duration: 0.2s; transition-property: background-color; transition-timing-function: ease-in-out; }
+.app__skeleton-loader::after { animation: 1.5s ease-in-out 0s infinite normal none running shimmer; background-image: linear-gradient(90deg,color-mix(in srgb,var(--dd-color-background-main),transparent 100%) 0,color-mix(in srgb,var(--dd-color-background-main),transparent 75%) 35%,color-mix(in srgb,var(--dd-color-background-main),transparent 0),color-mix(in srgb,var(--dd-color-background-main),transparent 75%) 65%,color-mix(in srgb,var(--dd-color-background-main),transparent 100%)); inset: 0px; content: ""; position: absolute; transform: translate(-100%); }

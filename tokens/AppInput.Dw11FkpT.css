@@ -1,0 +1,17 @@
+.app__input { align-items: center; background-color: transparent; display: flex; font-size: 2rem; height: 1.25rem; justify-content: space-between; line-height: 2.5rem; position: relative; transition: opacity 0.15s ease-in-out 0s; width: 100%; }
+.app__input--xs { font-size: 0.625rem; }
+.app__input--sm, .app__input--xs { height: 1.25rem; line-height: 1.25rem; }
+.app__input--sm { font-size: 0.875rem; }
+.app__input--md { font-size: 1rem; height: 1.25rem; line-height: 1.25rem; }
+.app__input--lg { font-size: 2rem; height: 2.5rem; line-height: 2.5rem; }
+.app__input--xl { font-size: 1.125rem; height: 3.375rem; line-height: 3.375rem; }
+.app__input--disabled { cursor: default; }
+.app__input-element { appearance: none; background-color: transparent; border: none; color: var(--dd-color-content-primary); font-size: inherit; font-weight: 400; height: 100%; margin: 0px; outline: none; padding: 0px; text-overflow: ellipsis; transition-duration: 0.2s; transition-property: color; transition-timing-function: ease-in-out; width: 100%; }
+.app__input-element::-webkit-inner-spin-button, .app__input-element::-webkit-outer-spin-button, .app__input-element:focus, .app__input-element:hover { appearance: none; }
+.app__input-element:hover { outline: none !important; }
+.app__input-element::placeholder { color: var(--dd-color-content-secondary); font-weight: inherit; transition-duration: 0.2s; transition-property: color; transition-timing-function: ease-in-out; }
+.app__input-appendix, .app__input-prefix { align-items: center; display: flex; height: 100%; }
+.app__input-prefix { padding-left: 0.75rem; }
+.app__input-appendix { padding-right: 0.75rem; }
+.app__input-overlay { background-color: rgb(0, 0, 0); border-radius: 0.625rem; inset: 0px; opacity: 0.7; position: absolute; transition: opacity 0.15s ease-in-out 0s; z-index: 2; }
+.app__input-overlay--readonly { opacity: 0; }

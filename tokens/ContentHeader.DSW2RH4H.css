@@ -1,0 +1,14 @@
+.app-content-header { justify-content: space-between; z-index: 2; }
+.app-content-header, .app-content-header__text { align-items: center; display: flex; flex-direction: row; }
+.app-content-header__text { justify-content: flex-start; }
+.app-content-header__title { color: var(--dd-color-content-primary); font-size: 1.25rem; font-weight: 600; line-height: 1.75rem; margin-left: 0.75rem; transition-duration: 0.2s; transition-property: color; transition-timing-function: ease-in-out; }
+@media screen and (min-width: 768px) {
+  .app-content-header__title { font-size: 1.5rem; line-height: 2rem; }
+}
+.app-content-header__title:first-child { margin-left: 0px; }
+.app-content-header__buttons { align-items: center; display: flex; flex-direction: row; justify-content: flex-end; }
+.app-content-header__buttons > * { color: var(--dd-color-content-primary); cursor: pointer; height: 1.375rem; margin-left: 0.5rem; position: relative; transition-duration: 0.2s; transition-property: color; transition-timing-function: ease-in-out; width: 1.375rem; }
+.app-content-header__buttons > :first-child { margin-left: 0px; }
+@media (hover: hover) and (pointer: fine) {
+  .app-content-header__buttons > :hover { color: var(--dd-color-content-secondary); }
+}

@@ -1,0 +1,45 @@
+.app-portfolio__content-block-twin-icon-wrapper { align-items: center; display: flex; height: 1.5rem; justify-content: center; margin-right: 0.5rem; position: relative; width: 2.5rem; }
+@media screen and (min-width: 768px) {
+  .app-portfolio__content-block-twin-icon-wrapper { height: 2rem; width: 3.5rem; }
+}
+.app-portfolio__content-block-icon { background-color: var(--dd-color-stroke); border: 1px solid var(--dd-color-stroke); border-radius: 50%; height: 100%; position: relative; transition-duration: 0.2s; transition-property: border-color, background-color; transition-timing-function: ease-in-out; width: auto; z-index: 1; }
+.app-portfolio__content-block-icon:nth-child(2) { margin-left: -0.5rem; z-index: 0; }
+._masonry_eaq0x_1 { display: flex; gap: 10px; }
+._column_eaq0x_6 { box-sizing: border-box; display: flex; flex-direction: column; width: 100%; }
+.app-portfolio { color: var(--dd-color-content-primary); display: flex; flex-direction: column; transition-duration: 0.2s; transition-property: color, background-color; transition-timing-function: ease-in-out; width: 100%; }
+@media screen and (min-width: 768px) {
+  .app-portfolio { background-color: var(--dd-color-background-main); border-radius: 2rem; padding: 1.5rem 1.25rem 1.25rem; }
+}
+.app-portfolio--disconnected { align-items: center; align-self: center; background-color: transparent; display: flex; flex-direction: column; margin: 3rem 0px 0px; }
+@media screen and (min-width: 768px) {
+  .app-portfolio--disconnected { margin: auto 0px; width: 23rem; }
+}
+.app-portfolio__disconnected-status { margin-bottom: 1.5rem; position: relative; }
+.app-portfolio__disconnected-status-wallet { align-items: center; background-color: var(--dd-color-content-primary); border-radius: 50%; color: var(--dd-color-background-main); display: flex; height: 4rem; justify-content: center; transition-duration: 0.2s; transition-property: color, background-color; transition-timing-function: ease-in-out; width: 4rem; }
+.app-portfolio__disconnected-status-wallet-icon { height: auto; width: 1.875rem; }
+.app-portfolio__disconnected-status-cross { align-items: center; background-color: var(--dd-color-accent-main); border-radius: 50%; color: var(--dd-color-content-button); display: flex; height: 2rem; justify-content: center; position: absolute; right: -0.5rem; top: -0.5rem; transition-duration: 0.2s; transition-property: color, background-color; transition-timing-function: ease-in-out; width: 2rem; }
+.app-portfolio__disconnected-status-cross-icon { height: auto; width: 0.8125rem; }
+.app-portfolio__disconnected-header { align-items: center; display: flex; flex-direction: column; }
+.app-portfolio__disconnected-header-title { font-size: 2rem; font-weight: 500; line-height: 2.5rem; text-align: center; }
+.app-portfolio__disconnected-header-description { font-size: 0.875rem; line-height: 1.25rem; text-align: center; }
+.app-portfolio__disconnected-footer { margin-top: 2rem; width: 23rem; }
+.app-portfolio__content { display: flex; flex-direction: column; margin-top: 1.25rem; width: 100%; }
+@media screen and (min-width: 768px) {
+  .app-portfolio__content { margin-top: 0.75rem; }
+}
+.app-portfolio__content-address { color: var(--dd-color-accent-main); font-size: 2rem; font-weight: 600; line-height: 2.5rem; }
+@media screen and (min-width: 768px) {
+  .app-portfolio__content-address { font-weight: 500; }
+}
+.app-portfolio__content-summary { margin: 1rem 0px 1.5rem; }
+@media screen and (min-width: 768px) {
+  .app-portfolio__content-summary { margin: 1.25rem 0px; }
+}
+.app-portfolio__content-summary::after, .app-portfolio__content-summary::before { background-color: var(--dd-color-stroke); content: ""; display: block; height: 0.0625rem; margin-left: -1rem; transition-duration: 0.2s; transition-property: background-color; transition-timing-function: ease-in-out; width: calc(100% + 2rem); }
+@media screen and (min-width: 768px) {
+  .app-portfolio__content-summary::after, .app-portfolio__content-summary::before { margin-left: -1.25rem; width: calc(100% + 2.5rem); }
+}
+.app-portfolio__content-summary::before { margin-bottom: 1rem; }
+.app-portfolio__content-summary::after { margin-top: 1rem; }
+.app-portfolio__content-summary-title { color: var(--dd-color-content-secondary); font-size: 0.875rem; line-height: 1.25rem; transition-duration: 0.2s; transition-property: color; transition-timing-function: ease-in-out; }
+.app-portfolio__content-summary-value { font-size: 2rem; line-height: 2.5rem; margin-top: 0.5rem; }

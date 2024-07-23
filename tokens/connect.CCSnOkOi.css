@@ -1,0 +1,11 @@
+.modal-auth-wagmi { align-items: flex-end; display: flex; justify-content: center; }
+@media screen and (min-width: 768px) {
+  .modal-auth-wagmi { align-items: center; }
+}
+.modal-auth-wagmi__inner { border-radius: 0.75rem 0.75rem 0px 0px; display: flex; flex-direction: row; justify-content: center; padding: 1.5rem 0px; }
+.modal-auth-wagmi__inner-item { align-items: center; cursor: pointer; display: flex; flex-basis: 40%; flex-direction: column; justify-content: flex-start; }
+.modal-auth-wagmi__inner-item-name { font-size: 0.875rem; font-weight: 600; line-height: 1.125rem; }
+.modal-auth-wagmi__inner-item-image-wrapper { align-items: center; background-color: var(--dd-color-stroke); border: 1px solid var(--dd-color-stroke); border-radius: 1rem; color: var(--dd-color-content-secondary); display: flex; height: 3.75rem; justify-content: center; margin-bottom: 0.5rem; position: relative; width: 3.75rem; }
+.modal-auth-wagmi__inner-item-image-wrapper--mm { background-color: rgb(18, 18, 18); }
+.modal-auth-wagmi__inner-item-image-wrapper--wc { background-color: rgb(59, 153, 252); }
+.modal-auth-wagmi__inner-item-image { display: flex; height: auto; margin: 0px auto; width: 2.25rem; }

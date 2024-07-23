@@ -1,0 +1,71 @@
+.app__loading { animation: 2s linear 0s infinite normal none running spinner_first; transform-origin: center center; }
+.app__loading > circle { stroke-linecap: round; animation: 1.5s ease-in-out 0s infinite normal none running spinner_second; }
+@keyframes spinner_first { 
+  100% { transform: rotate(1turn); }
+}
+@keyframes spinner_second { 
+  0% { stroke-dasharray: 0, 150; stroke-dashoffset: 0; }
+  47.5% { stroke-dasharray: 42, 150; stroke-dashoffset: -16; }
+  95%, 100% { stroke-dasharray: 42, 150; stroke-dashoffset: -59; }
+}
+@keyframes rotate { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
+}
+.app__button { align-items: center; border-radius: 2.5rem; cursor: pointer; display: flex; flex: 0 0 auto; font-size: 0.875rem; font-weight: 500; height: 3.25rem; justify-content: center; line-height: 1.25rem; padding: 1rem; position: relative; transition-duration: 0.2s; transition-property: color, fill, stroke, background-color, border-color; transition-timing-function: ease-in-out; user-select: none; }
+.app__button--xs { font-size: 0.75rem; font-weight: 400; height: 1.75rem; padding: 0px 0.625rem; }
+.app__button--xs.app__button--round { width: 1.75rem; }
+.app__button--xs.app__button--padding-sm { padding: 0px 0.3125rem; }
+.app__button--xs.app__button--padding-md { padding: 0px 0.625rem; }
+.app__button--xs.app__button--padding-lg { padding: 0px 0.9375rem; }
+.app__button--sm { font-size: 0.875rem; font-weight: 500; height: 2.5rem; padding: 0px 0.75rem; }
+.app__button--sm.app__button--round { width: 2.5rem; }
+.app__button--sm.app__button--padding-sm { padding: 0px 0.375rem; }
+.app__button--sm.app__button--padding-md { padding: 0px 0.75rem; }
+.app__button--sm.app__button--padding-lg { padding: 0px 1.125rem; }
+.app__button--md { font-size: 0.875rem; font-weight: 600; height: 3.25rem; padding: 0px 1rem; }
+.app__button--md.app__button--round { width: 3.25rem; }
+.app__button--md.app__button--padding-sm { padding: 0px 0.5rem; }
+.app__button--md.app__button--padding-md { padding: 0px 1rem; }
+.app__button--md.app__button--padding-lg { padding: 0px 1.5rem; }
+.app__button--lg { font-size: 0.875rem; font-weight: 600; height: 4.25rem; padding: 0px 1.25rem; }
+.app__button--lg.app__button--round { width: 4.25rem; }
+.app__button--lg.app__button--padding-sm { padding: 0px 0.625rem; }
+.app__button--lg.app__button--padding-md { padding: 0px 1.25rem; }
+.app__button--lg.app__button--padding-lg { padding: 0px 1.875rem; }
+.app__button--primary { background-color: var(--dd-color-accent-main); border: 1px solid var(--dd-color-accent-main); color: var(--dd-color-content-button); }
+@media (hover: hover) and (pointer: fine) {
+  .app__button--primary:hover:not(.app__button--readonly) { background-color: color-mix(in srgb,var(--dd-color-accent-main),var(--dd-color-background-main) 10%); border-color: color-mix(in srgb,var(--dd-color-accent-main),var(--dd-color-background-main) 10%); }
+}
+.app__button--primary:active:not(.app__button--readonly) { background-color: color-mix(in srgb,var(--dd-color-accent-main),var(--dd-color-content-primary) 10%); border-color: color-mix(in srgb,var(--dd-color-accent-main),var(--dd-color-content-primary) 10%); }
+.app__button--primary:disabled { background-color: var(--dd-color-background-additional); border-color: var(--dd-color-stroke); }
+.app__button--primary.app__button--outline, .app__button--secondary { color: var(--dd-color-accent-main); }
+.app__button--secondary { background-color: var(--dd-color-background-additional); border: 1px solid var(--dd-color-background-additional); }
+@media (hover: hover) and (pointer: fine) {
+  .app__button--secondary:hover:not(.app__button--readonly) { background-color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-background-main) 10%); border-color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-background-main) 10%); }
+}
+.app__button--secondary:active:not(.app__button--readonly) { background-color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-content-primary) 10%); border-color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-content-primary) 10%); }
+.app__button--secondary:disabled { background-color: var(--dd-color-background-additional); border-color: var(--dd-color-stroke); }
+.app__button--secondary.app__button--outline { color: var(--dd-color-accent-main); }
+.app__button--tertiary { background-color: var(--dd-color-background-additional); border: 1px solid var(--dd-color-background-additional); color: var(--dd-color-content-primary); }
+@media (hover: hover) and (pointer: fine) {
+  .app__button--tertiary:hover:not(.app__button--readonly) { background-color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-background-main) 10%); border-color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-background-main) 10%); }
+}
+.app__button--tertiary:active:not(.app__button--readonly) { background-color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-content-primary) 10%); border-color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-content-primary) 10%); }
+.app__button--tertiary:disabled { background-color: var(--dd-color-background-additional); border-color: var(--dd-color-stroke); }
+.app__button--tertiary.app__button--outline { color: var(--dd-color-content-primary); }
+.app__button--center { justify-content: center; }
+.app__button--space-between { justify-content: space-between; }
+.app__button--flex-start { justify-content: flex-start; }
+.app__button--flex-end { justify-content: flex-end; }
+.app__button--group-left { border-radius: 0.625rem 0px 0px 0.625rem; }
+.app__button--group-center { border-radius: 0px; }
+.app__button--group-right { border-radius: 0px 0.625rem 0.625rem 0px; }
+.app__button--wide { width: 100%; }
+.app__button--round { border-radius: 50%; padding: 0px !important; }
+.app__button--outline { background-color: var(--dd-color-background-main) !important; }
+.app__button--readonly, .app__button:disabled { cursor: default; pointer-events: none; }
+.app__button:disabled { color: color-mix(in srgb,var(--dd-color-background-additional),var(--dd-color-content-secondary) 65%); }
+.app__button--loading * { opacity: 0 !important; }
+.app__button-spinner { color: inherit; height: 70%; width: auto; stroke-width: 0.125rem; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); opacity: 1 !important; }
+.app__button-spinner * { opacity: 1 !important; }
