@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Finsights\u002Fresources\u002F[tag]","\u002Finsights\u002Fresources\u002F[tag]\u002F[slug]","\u002Frestake"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
