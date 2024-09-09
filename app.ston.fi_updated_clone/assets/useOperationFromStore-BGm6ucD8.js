@@ -1,0 +1,1 @@
+import{D as s,r as a}from"./vendors-Dtot3KuJ.js";import{O as n}from"./useBlockchainExplorer-Bfo5epRb.js";const i=(o,e=()=>!0)=>{const r=s(()=>n.operations);return a.useMemo(()=>r.find(t=>t.type===o&&e(t))??null,[r,o,e])},O=(o,e=()=>!0)=>i(o,r=>n.isPendingOperation(r)&&e(r));export{O as a,i as u};

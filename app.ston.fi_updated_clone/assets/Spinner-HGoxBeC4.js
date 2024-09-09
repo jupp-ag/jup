@@ -1,0 +1,1 @@
+import{j as a,f as t}from"./index-rYEy9Y7-.js";import{am as n}from"./Button-BDyEdmnj.js";const o=({size:s,...i})=>a.jsx(n,{...i,width:s,height:s,className:t("animate-[spin_1s_steps(8)_infinite] inline-block",i.className)});export{o as S};

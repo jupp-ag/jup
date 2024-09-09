@@ -1,0 +1,1 @@
+import{r as s}from"./vendors-Dtot3KuJ.js";import{M as r}from"./index-rYEy9Y7-.js";const S=t=>{const[o,a]=s.useState(()=>r.getItem(t)==="true"),n=s.useCallback(e=>{e?r.setItem(t,e.toString()):r.removeItem(t),a(e)},[t]);return[o,n]};export{S as u};

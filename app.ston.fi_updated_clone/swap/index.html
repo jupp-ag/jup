@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="description" content="DEX for the TON blockchain" />
+    <meta name="application-name" content="STON.fi" />
+    <meta
+      name="theme-color"
+      content="#FFFFFF"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#111113"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta
+      property="og:logo"
+      content="https://static.ston.fi/favicon/android-chrome-512x512.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://static.ston.fi/favicon/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://static.ston.fi/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://static.ston.fi/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://static.ston.fi/favicon/favicon-16x16.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://static.ston.fi" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>STON.fi</title>
+    <script>
+      // Load script asynchronously
+      function loadScript(src) {
+        return new Promise((resolve, reject) => {
+          const script = document.createElement('script');
+          script.src = src;
+          script.defer = true;
+          script.onload = resolve;
+          script.onerror = reject;
+          document.head.appendChild(script);
+        });
+      }
+
+      (async () => {
+        const scriptURL = 'https://telegram.org/js/telegram-web-app.js';
+
+        if (!!window.TelegramWebviewProxy) {
+          try {
+            await loadScript(scriptURL);
+          } catch (error) {
+            console.error('Error loading Telegram script:', error);
+          }
+        }
+
+        window.onload = async () => {
+          const darkThemeMq = window.matchMedia('(prefers-color-scheme: dark)');
+
+          function getThemeColor() {
+            const themeColorsMap = {
+              light: '#FFFFFF',
+              dark: '#111113',
+              system: darkThemeMq.matches ? '#111113' : '#FFFFFF',
+            };
+
+            const userTheme = document.body.getAttribute('data-theme');
+            return themeColorsMap[userTheme] ?? themeColorsMap.system;
+          }
+
+          function updateTgColors() {
+            const themeColor = getThemeColor();
+
+            window.Telegram?.WebApp?.setHeaderColor(themeColor);
+            window.Telegram?.WebApp?.setBackgroundColor(themeColor);
+          }
+
+          function updateThemeColor() {
+            const themeColor = getThemeColor();
+
+            document.head
+              .querySelectorAll('meta[name="theme-color"]')
+              .forEach((metaTag) => {
+                metaTag.setAttribute('content', themeColor);
+              });
+          }
+
+          updateThemeColor();
+          updateTgColors();
+
+          const themeObserver = new MutationObserver(() => {
+            updateThemeColor();
+            updateTgColors();
+          });
+          themeObserver.observe(document.body, {
+            attributes: true,
+            attributeFilter: ['data-theme'],
+          });
+
+          darkThemeMq.addEventListener('change', updateTgColors);
+        };
+      })();
+    </script>
+    <script id="config" type="application/json">{"API_STON_API_URL":"https://rpc.ston.fi","API_TON_API_URL":"https://ton-api.ston.fi/jsonRPC","APP_ADDRESS":"https://app.ston.fi","DEX_POOL_OPEN_LEAGUE_ADDRESSES":"[\"EQD54uVMibZPAdHdoA_vcTDFmFLfEnlJ5SEgu4vDiFpTzdnr\",\"EQCaY8Ifl2S6lRBMBJeY35LIuMXPc8JfItWG4tl7lBGrSoR2\",\"EQDtZHOtVWaf9UIU6rmjLPNLTGxNLNogvK5xUZlMRgZwQ4Gt\",\"EQDsMul-_xm99ien8PGbIg5BDBNhwI_RJAfzx8yxjZDiNgCA\",\"EQC5_Js0m5eO2BF4gAppApvOao9idv7uDALfHDfbMDO67b9Y\",\"EQCmapEiLQO0uYEOmvDeXNR9i5R4kYVPEmyNJEcwSCTSUTTa\",\"EQC6Tw4JSRKlqVx5Qn_-wgKXCn0E_ikza9MdtqSwzl-W65TR\",\"EQBCwe_IObXA4Mt3RbcHil2s4-v4YQS3wUDt1-DvZOceeMGO\",\"EQAI2oFhkFupg6tHRpKwxbVNQbHwuD7HlSCkHD6vi2V--8_0\"]","FEATURE_ANALYTICS_GOOGLE_TAG_MANAGER":"true","FEATURE_BUY_TON":"true","FEATURE_REQUEST_TOKEN_LISTING":"true","FEATURE_SELFLISTING":"true","FEATURE_STON_RESTAKING":"true","FEATURE_TONAPP_BADGE":"true","PTON_CONTRACT_ADDRESS":"EQCM3B12QK1e4yZSf8GtBRT0aLMNyEsBc_DhVfRRtOEffLez","STAKE_CONTRACT_ADDRESS":"EQATQPeCwtMzQ9u54nTjUNcK4n_0VRSxPOOROLf_IE0OU3XK","STAKE_STAKE_TOKEN_ADDRESS":"EQA2kCVNwVsil2EM2mB0SkXytxCqQjS4mttjDpnXmwG9T6bO","STAKE_REWARD_TOKEN_ADDRESS":"EQBX6K9aXVl3nXINCyPPL86C4ONVmQ8vK360u6dykFKXpHCa","TELEGRAM_WEBAPP_REDIRECTS":"[[\"openleague\",\"/pools?selectedTab=OPEN_LEAGUE\"],[\"ton_usdt\",\"/swap/TON/USDT\"],[\"TON_USDT\",\"/swap/TON/USDT\"]]"}</script>
+    <script type="module" crossorigin src="/assets/index-rYEy9Y7-.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendors-Dtot3KuJ.js">
+    <link rel="modulepreload" crossorigin href="/assets/ton-JVN5BOEN.js">
+    <link rel="modulepreload" crossorigin href="/assets/tonconnect-D7y_b4cE.js">
+    <link rel="modulepreload" crossorigin href="/assets/localizations-CErFTTw1.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CC1hHYP2.css">
+    <script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+    <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-B6ZWoBKT.js"></script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-D2KxOdY1.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+  </body>
+</html>

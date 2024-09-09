@@ -1,0 +1,1 @@
+import{j as e,h as o}from"./index-rYEy9Y7-.js";import{L as m,G as p}from"./vendors-Dtot3KuJ.js";const n=({to:a,state:t,children:r,...s})=>e.jsx(m,{...s,to:{pathname:o(a),search:`?${p(t)}`},children:r});export{n as A};

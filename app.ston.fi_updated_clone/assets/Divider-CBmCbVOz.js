@@ -1,0 +1,1 @@
+import{r}from"./vendors-Dtot3KuJ.js";import{f as s}from"./index-rYEy9Y7-.js";const i=r.forwardRef(({className:o,orientation:t="horizontal",...a},e)=>r.createElement("div",{ref:e,...a,className:s("shrink-0 bg-stroke",t==="horizontal"?"h-[1px] w-full":"h-full w-[1px]",o)}));export{i as f};
