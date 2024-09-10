@@ -1,0 +1,1 @@
+._accordion_1exf2_1[data-state=open]{animation:_accordion-down_1exf2_1 .5s}._accordion_1exf2_1[data-state=closed]{animation:_accordion-up_1exf2_1 .5s}@keyframes _accordion-up_1exf2_1{0%{height:var(--radix-accordion-content-height)}to{height:0}}@keyframes _accordion-down_1exf2_1{0%{height:0}to{height:var(--radix-accordion-content-height)}}
